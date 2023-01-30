@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <header>
+<img src="img/banner.jpg" alt="" width="100%" height="25%" >
+<section>
+  <!-- <!–– Barra de navegacion ––> -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+      </a>
+      <div class="navbar-nav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="navbar-brand">
+              <a class="nav-link active" aria-current="page" href="index.html" target="_blank">Inicio</a>
+            </li>
+            <li class="navbar-brand">
+              <a class="nav-link " href="https://git-scm.com/downloads" target="_blank">Descarga Git</a>
+            </li>
+            <li class="navbar-brand">
+              <a class="nav-link " href="https://tortoisesvn.net/downloads.html" target="_blank"> Desrcarga SVN</a>
+            </li>
+            <li class="navbar-brand">
+              <a class="nav-link " href="https://github.com/21edclique" target="_blank"> GitHub 21edclique</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+</section>
+
+  </header>
+<head>
+    <link rel="shortcut icon" href="img/logo.png"> 
+    <title>
+        21edclique</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  
+  <section>
+  <center><h1 class="blue" _msthash="314496" _msttexthash="3818321">Git vs SVN </h1></center>
+  <hr>
+  <div>
+    <img src="img/git vs svn.jpg" width="45%" height="45%" hspace="5" vspace="5" style="float: left;" />
+    Los sistemas de control de versiones registran los cambios realizados en documentos o archivos. Estos sistemas guardan versiones que posteriormente se han cambiado durante la edición (con la inclusión de una marca de tiempo y un ID de usuario) para que las versiones anteriores de estos mismos documentos o archivos se puedan acceder o restaurar en cualquier momento. Esto permite realizar un seguimiento de qué usuarios realizaron cambios en los elementos y cuándo ocurrieron con precisión. El objetivo principal de dicho sistema es coordinar los accesos compartidos de los usuarios a múltiples archivos y permitir el desarrollo simultáneo de múltiples ramas.
+    Normalmente, los sistemas de control de versiones se utilizan para el desarrollo de software, aplicaciones de oficina y sistemas de gestión de contenido (CMS). Apache Subversion (SVN) y Git se encuentran entre los programas más populares para el control de versiones, y estos pueden instalarse en su propio servidor o alquilarse a través de un servicio de alojamiento web. El servicio de alojamiento basado en web más popular para proyectos Git es GitHub. El alojamiento de Subversion es ofrecido por soluciones como RiouxSVN. Servicios como SourceForge alojan ambos sistemas.
+    </div>
+  </section>
+  <hr>
+ <section>
+  <div>
+    <center><h2 class="blue" _msthash="314496" _msttexthash="3818321"> SVN Subversion</h2></center>
+    <img src="img/svn.png" width="40%" height="40%" hspace="5" vspace="5" style="float: right;" />
+    CollabNet comenzó a desarrollar SVN en 2000 y lanzó su primera versión unos cuatro años después. Con su lanzamiento, SVN se convirtió esencialmente en el sucesor legítimo de CVS (Concurrent Versions Systems). En 2009, el proyecto se trasladó a la Apache Software Foundation, cambiando su nombre en el proceso.
+    SVN se basa en un sistema centralizadopara la gestión de versiones. En pocas palabras, esto significa que hay un directorio válido (repositorio) al que todos los usuarios pueden acceder. Dado que los cambios en archivos y documentos no están vinculados entre sí, este sistema evita que dos usuarios editen simultáneamente el mismo archivo. Después de esta configuración, el primer usuario que accede a un archivo también preside sus derechos de edición, lo que hace que no esté disponible para que otros usuarios trabajen en él. Apache Subversion también es capaz de permitir que cualquier subruta sea descargada y editada independientemente del resto de su árbol de directorios correspondiente. Esta flexibilidad permite asignar diferentes usuarios diferentes permisos de lectura y escritura para todas las rutas. Una característica adicional de Subversions es que los directorios que están vacíos, sin nombre o que se han movido también se pueden registrar sin ninguna preocupación por las pérdidas de su historial.
+    </div>
+<hr>
+
+ </section>
+    
+ <section>
+  <div>
+    <center><h2 class="blue" _msthash="314496" _msttexthash="3818321"> Git</h2></center>
+    <img src="img/git.png" width="40%" height="40%" hspace="5" vspace="5" style="float: left;" />
+    En 2005, Linus Thorvalds, creador de Linux, comenzó, más o menos contra su propia voluntad, a desarrollar un nuevo software para la gestión de versiones. La razón: debido a un cambio de licencia con BitKeeper, los desarrolladores del kernel de Linux perdieron sus accesos gratuitos al sistema de software. Lo que vino en su lugar fue un nuevo sistema que presenta estructuras de trabajo similares a las que se encuentran dentro de BitKeeper. La protección contra cambios involuntarios y la alta eficiencia son inquilinos adicionales de este nuevo sistema. Después de unos pocos días de trabajo, Thorvalds presentó su primera versión de Git.
+    Git es compatible con un sistema de control de versiones distribuido. Y aunque hay un repositorio central en el que fluyen todos los cambios, todos los usuarios aún pueden descargar sus propias copias de trabajo. Esto da a los usuarios acceso a todo el repositorio, incluido el historial, y los libera de tener que mantener una conexión constante a la red. Además, los cambios se transfieren rápidamente al repositorio principal. De acuerdo con esta configuración, Git no ofrece un sistema de bloqueo; En su lugar, cada usuario genera sus propias ramas que luego se cargan en el repositorio principal.
+    De forma predeterminada, a cada usuario también se le permiten permisos de lectura y escritura para todo el directorio (diferentes derechos de acceso requieren que se configuren diferentes directorios principales). Cada copia de trabajo es una copia de seguridad distinta del directorio principal, que es particularmente ventajosa si funciona mal o incurre en algún daño. Git solo registra el contenido del directorio, por lo que los directorios vacíos se eliminan automáticamente.
+    </div>
+<hr>
+
+ </section>
+  
+ <section>
+  <div>
+    <img src="img/ventajas.jpg" width="50%" height="50%" hspace="5" vspace="5" style="float: left;" />
+<h2>Estas son las ventajas de cada uno de ambos sistemas:</h2>
+<h4>Git debe usarse si ...</h4>
+<ol>
+
+ 
+  
+  </ol>
+    - No desea depender de una conexión de red constante para trabajar en todas las partes de su proyecto.
+    <br>
+    - Desea protegerse de una pérdida o mal funcionamiento del repositorio principal.
+    <br>
+    -No necesita permisos de lectura o escritura para directorios especiales.
+    <br>
+    -Está interesado en transferir rápidamente los cambios realizados a documentos o archivos.
+<h4> Subversion debe usarse si...</h4>
+    - Necesita derechos de acceso basados en rutas de acceso para diferentes áreas de su proyecto.
+    <br>
+    - Desea agrupar todo su trabajo en un lugar céntrico.
+    <br>
+    - Está trabajando con muchos archivos binarios grandes.
+    <br>
+    - Desea registrar completamente las estructuras de directorios vacíos (Git los elimina, ya que no contienen contenido).
+    </div>
+<hr>
+
+ </section>
+
+
+</body>
+
+
+<footer>
+
+    <!-- <!–– footer ––> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <center><img src="img/logo2.png" alt="" width="150" height="150" class="navbar-nav"></center>
+        </a>
+
+        
+
+        <p align="left">
+          <h5 style="color: white;">Contactanos:</h5>
+          <div class="detail-box">
+            <h6>
+              <h5 style="color: white;">bryanjinez200027@gmail.com </h5>
+            </h6>
+          </div>
+          <section>
+          <a href="https://www.linkedin.com/in/bryan-jinez-857941139/" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" alt="21edclique_n7" height="30" width="40" /></a>
+         <a href="https://www.instagram.com/bryan_mimi27/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="21edclique.n7" height="30" width="40" /></a>
+             <a href="https://github.com/21edclique" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="21edclique.n7" height="30" width="40" /></a>
+         </p>
+        </section>
+        <section>
+          <div class="detail-box">
+            <h6>
+              <h5 style="color: white;">© 2023 copyright </h5>
+            </h6>
+          </div>
+
+        </section>
+       
+   
+      </nav>
+
+</footer>
+</html>
